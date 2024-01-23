@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css' integrity='sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==' crossorigin='anonymous' />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Store</title>
+</head>
+
+<body>
+    <div class="container-fluid bg_pink px-sm-0 px-3">
+        <div class="col-xxl-9 col-xl-11 w90hd mx-auto py-2">
+            <nav class="navbar navbar-expand-sm text-white">
+                <div class="container-fluid px-0">
+                    <a class="navbar-brand desktop">
+                        <img src="media/logo.svg" class="">
+                    </a>
+                    <a class="navbar-brand mobile">
+                        <img src="media/logoM.svg" class="">
+                    </a>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <a href="" class="mobile">
+                            <img src="media/person.svg" class="">
+                        </a>
+                        <a href="" class="mobile">
+                            <img src="media/cart.svg" class="">
+                        </a>
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+	                        <img src="media/menu_icon.svg" class="img-fluid">
+	                    </button>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-between align-items-center" id="mynavbar">
+                        <ul class="navbar-nav nav1 text-center">
+                            <li class="nav-item position-relative text-center int pt-2">
+                                <a class="nav-link dropdown-toggle fs20 text_black d-flex gap-2 align-items-center justify-content-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories
+	                                <img src="media/CaretDown.png" alt="">
+	                            </a>
+                                <ul class="dropdown-menu gb border-0" aria-labelledby="navbarDropdownMenuLink">
+                                    <div class="py-2 border-0">
+                                        <li class="">
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center" href="#">
+                                                <div>Working from home</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center active" href="#">
+                                                <div>Mental wellbeing</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center" href="#">
+                                                <div>Fitness & health</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center" href="#">
+                                                <div>Write a book</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center" href="#">
+                                                <div>Career</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center" href="#">
+                                                <div>Pet</div>
+                                            </a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item pt-2">
+                                <a class="nav-link fs20 text_black int" href="#">About us</a>
+                            </li>
+                            <li class="nav-item pt-2 pb-2">
+                                <a class="nav-link fs20 text_black int" href="#">Contact us</a>
+                            </li>
+                            <li class="nav-item position-relative text-center int pt-2">
+                                <a class="nav-link dropdown-toggle fs20 text_black d-flex gap-2 align-items-center justify-content-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">USD £
+	                                <img src="media/CaretDown.png" alt="">
+	                            </a>
+                                <ul class="dropdown-menu gb border-0" aria-labelledby="navbarDropdownMenuLink">
+                                    <div class="py-2 border-0">
+                                        <li class="">
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center" href="#">
+                                                <div>GBP</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center active" href="#">
+                                                <div>USD</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="fs20 text_black dropdown-item text-sm-start text-center" href="#">
+                                                <div>EU</div>
+                                            </a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item pt-2 border-0">
+                                <a class="nav-link fs20 text_black int" href="#"><img src="media/cart.svg" class="">&nbsp;Cart
+                                    <badge>(0)</badge>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav nav2 align-items-center gap-2 desktop">
+                            <button type="button" class="btn_navW fs18 wNav">Log in</button>
+                            <button type="button" class="btn_navO fs18 wNav">Sign up</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid  py-xl-0 py-0 px-0 px-sm-0 store22">
+
+        <div class="item2 py-5 b3">
+            <div class="row align-items-center py-sm-5">
+                <div class="col-lg-6 ps-sm-5 px-4 px-xl-0">
+                    <div class="col-lg-8 mx-auto ps-sm-4">
+                        <div class="fs64 text_pink pb-3 px-2 px-xl-0">Fitness & health </div>
+                        <p class="text_pink fs20P px-2 px-xl-0">Nibh diam eu sit lectus fermentum accumsan. Arcu risus faucibus cursus feugiat. Nulla donec felis sagittis, in purus sit volutpat ac. Convallis vehicula egestas ac scelerisque amet in morbi sodales. Nibh odio enim non et nullam
+                            nisl mollis turpis neque. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 ms-sm-auto pe-sm-0">
+                    <img src="media/fitnessPic.png" class="img-fluid d-block ms-auto">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container-fluid bg_pink py-sm-5 py-2">
+        <div class="col-xxl-9 col-xl-12 w90hd mx-auto py-2">
+            <div class="d-flex flex-xl-nowrap flex-wrap">
+                <div class="col-lg-3 bg_pink range desktop h-100">
+                    <div class="d-flex flex-row gap-2 justify-content-between align-items-center">
+                        <div class="col-8">
+                            <div class="position-relative"><i class="fa fa-search position-absolute"></i><input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search" class=""></div>
+                        </div>
+                        <div class="col-4"><button class="btn_trans1 sbtn w-100">Search</button></div>
+                    </div>
+                    <div class="row py-3 py-sm-4">
+                        <div class="col">
+                            <div class="row pb-3">
+                                <div class="col-6 fs24 text_black">Type</div>
+                            </div>
+                            <div class="row align-items-center pb-2">
+                                <div class="col-2 p-0">
+                                    <!-- <input id="chck" type="checkbox">
+                                    <div class="h-100 pt-2 text-center">
+                                        <label for="chck" class="mycheckbox ch2"></label>
+                                    </div> -->
+                                    <input id="chck" type="checkbox">
+                                    <div class="h-100 pt-2 text-center">
+                                        <label for="chck" class="mycheckbox ch2"></label>
+                                    </div>
+                                </div>
+                                <div class="col-10 fs18 text_black p-0">Audiobooks&nbsp;
+                                    <bagde class="fs18 text_black"><sup>(10)</sup></bagde>
+                                </div>
+                            </div>
+                            <div class="row align-items-center pb-2">
+                                <div class="col-2 p-0">
+                                    <input id="chck1" type="checkbox">
+                                    <div class="h-100 pt-2 text-center">
+                                        <label for="chck1" class="mycheckbox ch2"></label>
+                                    </div>
+                                </div>
+                                <div class="col-10 fs18 text_black p-0">Audiobooks&nbsp;
+                                    <bagde class="fs18 text_black"><sup>(10)</sup></bagde>
+                                </div>
+                            </div>
+                            <div class="row align-items-center pb-2">
+                                <div class="col-2 p-0"><input id="chck2" type="checkbox">
+                                    <div class="h-100 pt-2 text-center">
+                                        <label for="chck2" class="mycheckbox ch2"></label>
+                                    </div>
+                                </div>
+                                <div class="col-10 fs18 text_black p-0">Audiobooks&nbsp;
+                                    <bagde class="fs18 text_black"><sup>(10)</sup></bagde>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row py-3 py-sm-4">
+                        <div class="col">
+                            <div class="row pb-3">
+                                <div class="col-6 fs24 text_black">Price</div>
+                            </div>
+                            <div class="row align-items-center pb-2">
+                                <div class="col-2 p-0"><input id="chck3" type="checkbox">
+                                    <div class="h-100 pt-2 text-center">
+                                        <label for="chck3" class="mycheckbox ch2"></label>
+                                    </div>
+                                </div>
+                                <div class="col-10 fs18 text_black p-0">less £10&nbsp;
+                                    <bagde class="fs18 text_black"><sup>(3)</sup></bagde>
+                                </div>
+                            </div>
+                            <div class="row align-items-center pb-2">
+                                <div class="col-2 p-0"><input id="chck4" type="checkbox">
+                                    <div class="h-100 pt-2 text-center">
+                                        <label for="chck4" class="mycheckbox ch2"></label>
+                                    </div>
+                                </div>
+                                <div class="col-10 fs18 text_black p-0">from £11 to £49&nbsp;
+                                    <bagde class="fs18 text_black"><sup>(3)</sup></bagde>
+                                </div>
+                            </div>
+                            <div class="row align-items-center pb-2">
+                                <div class="col-2 p-0"><input id="chck5" type="checkbox">
+                                    <div class="h-100 pt-2 text-center">
+                                        <label for="chck5" class="mycheckbox ch2"></label>
+                                    </div>
+                                </div>
+                                <div class="col-10 fs18 text_black p-0">more £50&nbsp;
+                                    <bagde class="fs18 text_black"><sup>(3)</sup></bagde>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="text" class="js-range-slider" name="my_range" value="" data-skin="round" data-type="double" data-min="0" data-max="1000" data-grid="false" />
+                        <div class="my-4 d-flex flex-row justify-content-between align-items-center">
+                            <div class="fs18">From&nbsp;&nbsp;<input type="text" class="from" placeholder="Min"></div>
+                            <div class="fs18 text-end">To&nbsp;&nbsp;<input type="text" class="to" placeholder="Max">
+                            </div>
+                        </div>
+                        <button type="button" class="btn_yellow w-100">Apply</button>
+                    </div>
+                </div>
+                <div class="col-lg-9 position-relative">
+                    <div class="col-xxl-11 w95hd ms-xxl-auto ms-xl-2 ">
+                        <div class="d-flex flex-sm-row flex-column pb-xl-0 py-3 align-items-xl-end justify-content-between mb-xl-5 mb-3">
+                            <div class="col-lg-6 order-last order-sm-first mt-sm-0 mt-3 ">
+                                <p class="fs18 pb-0 mb-0">Results : Showing 18 - 27 of 273</p>
+                            </div>
+                            <div class="col-lg-6 ms-sm-auto">
+                                <div class="row align-items-center ms-sm-auto mx-auto px-0">
+                                    <div class="col-lg-9 col-10 ms-sm-auto px-0">
+                                        <select class="w-100">
+											<option value="#">Sort by : Popular</option>
+											<option value="#">Sort by : Popular</option>
+											<option value="#">Sort by : Popular</option>
+										</select>
+                                        <img src="media/arrow_down.png" class="iconStyle img-fluid">
+                                    </div>
+                                    <div class="col-2 mobile">
+                                        <div class=" text-end">
+                                            <img src="media/Filter.png" alt="" class="fillBtn">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="col-lg-3 bg_pink filM range mobile h-auto mx-0">
+                                <div class="d-flex flex-row justify-content-between align-items-center">
+                                    <div class="col-8 pe-2">
+                                        <div class="position-relative"><i class="fa fa-search position-absolute"></i><input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search" class="ps-3"></div>
+                                    </div>
+                                    <div class="col-4"><button class="btn_trans1 sbtn w-100">Search</button></div>
+                                </div>
+                                <div class="row py-2 pb-0 py-sm-4">
+                                    <div class="col">
+                                        <div class="row pb-3">
+                                            <div class="col-6 fs24 text_black">Type</div>
+                                        </div>
+                                        <div class="row align-items-center pb-2">
+                                            <div class="col-2 p-0">
+                                                <!-- <input id="chck" type="checkbox">
+												<div class="h-100 pt-2 text-center">
+													<label for="chck" class="mycheckbox ch2"></label>
+												</div> -->
+                                                <input id="chck" type="checkbox">
+                                                <div class="h-100 pt-2 text-center">
+                                                    <label for="chck" class="mycheckbox ch2"></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-10 fs18 text_black p-0">Audiobooks&nbsp;
+                                                <bagde class="fs18 text_black"><sup>(10)</sup></bagde>
+                                            </div>
+                                        </div>
+                                        <div class="row align-items-center pb-2">
+                                            <div class="col-2 p-0">
+                                                <input id="chck1" type="checkbox">
+                                                <div class="h-100 pt-2 text-center">
+                                                    <label for="chck1" class="mycheckbox ch2"></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-10 fs18 text_black p-0">Audiobooks&nbsp;
+                                                <bagde class="fs18 text_black"><sup>(10)</sup></bagde>
+                                            </div>
+                                        </div>
+                                        <div class="row align-items-center pb-2">
+                                            <div class="col-2 p-0"><input id="chck2" type="checkbox">
+                                                <div class="h-100 pt-2 text-center">
+                                                    <label for="chck2" class="mycheckbox ch2"></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-10 fs18 text_black p-0">Audiobooks&nbsp;
+                                                <bagde class="fs18 text_black"><sup>(10)</sup></bagde>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-2 pb-0 py-sm-4">
+                                    <div class="col">
+                                        <div class="row pb-3">
+                                            <div class="col-6 fs24 text_black">Price</div>
+                                        </div>
+                                        <div class="row align-items-center pb-2">
+                                            <div class="col-2 p-0"><input id="chck3" type="checkbox">
+                                                <div class="h-100 pt-2 text-center">
+                                                    <label for="chck3" class="mycheckbox ch2"></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-10 fs18 text_black p-0">less £10&nbsp;
+                                                <bagde class="fs18 text_black"><sup>(3)</sup></bagde>
+                                            </div>
+                                        </div>
+                                        <div class="row align-items-center pb-2">
+                                            <div class="col-2 p-0"><input id="chck4" type="checkbox">
+                                                <div class="h-100 pt-2 text-center">
+                                                    <label for="chck4" class="mycheckbox ch2"></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-10 fs18 text_black p-0">from £11 to £49&nbsp;
+                                                <bagde class="fs18 text_black"><sup>(3)</sup></bagde>
+                                            </div>
+                                        </div>
+                                        <div class="row align-items-center pb-0">
+                                            <div class="col-2 p-0"><input id="chck5" type="checkbox">
+                                                <div class="h-100 pt-2 text-center">
+                                                    <label for="chck5" class="mycheckbox ch2"></label>
+                                                </div>
+                                            </div>
+                                            <div class="col-10 fs18 text_black p-0">more £50&nbsp;
+                                                <bagde class="fs18 text_black"><sup>(3)</sup></bagde>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="js-range-slider" name="my_range" value="" data-skin="round" data-type="double" data-min="0" data-max="1000" data-grid="false" />
+                                    <div class="my-2 d-flex flex-row justify-content-between align-items-center">
+                                        <div class="fs18">From&nbsp;&nbsp;<input type="text" class="from" placeholder="Min"></div>
+                                        <div class="fs18 text-end">To&nbsp;&nbsp;<input type="text" class="to" placeholder="Max">
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn_yellow w-100">Apply</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row px-2 px-xl-0">
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="item1 cardd">
+                                    <img src="media/Product Pic1.png" class="img-fluid mb-3">
+                                    <div class="d-flex flex-row gap-1 pb-1">
+                                        <div class="bg_yellow fs16VV text_black">Working from home</div>
+                                        <div class="bg_blue fs16VV text_black">Ebook</div>
+                                    </div>
+                                    <div class="fs24 text_black py-3 lh-sm">Work from home now</div>
+                                    <p class="fs18 text_grey">Id mauris arcu sagittis scelerisque id velit facilisis...</p>
+                                    <div class="d-flex flex-row align-items-center gap-1 justify-content-between">
+                                        <div class="fs24 text_black">£150.00</div>
+                                        <button type="button" class="btn_trans1">Add to cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mx-auto text-center pt-sm-5 pt-2">
+                            <ul class="pagination justify-content-center justify-content-xl-start">
+                                <li class="page-item"><a class="page-link fs18 bg-transparent border-0 text_dgrey" href="#">Prev</a></li>
+                                <li class="page-item bg_green rounded-3 border-0"><a class="page-link fs18 bg-transparent border-0 text_pink" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link fs18 border-0 bg-transparent text_grey" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link fs18 border-0 bg-transparent text_grey" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link fs18 border-0 bg-transparent text_grey" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link fs18 border-0 bg-transparent text_grey" href="#">10</a></li>
+                                <li class="page-item"><a class="page-link fs18 bg-transparent border-0 text_green" href="#">Next</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid about3 bg_pink px-sm-0 px-3 py-sm-5 py-4 overflow-hidden">
+        <div class="row align-items-center py-sm-5">
+            <div class="col-lg-6">
+                <div class="col-lg-9 ms-auto">
+                    <div class="col-lg-11 mx-sm-auto">
+                        <div class="fs48 text_black pb-4">Maybe you have questions?</div>
+                        <p class="fs20P text_grey pb-3 col-lg-11">Interdum nec imperdiet fermentum quis sit pharetra. In tristique etiam id in rhoncus in ornare. Feugiat consectetur sed sit at. Nunc ridiculus placerat enim praesent. Interdum nec imperdiet fermentum quis sit pharetra. In tristique
+                            etiam id in rhoncus in.</p>
+                        <button type="button" class="btn_green wNav">Contact us</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 pt-sm-0 pt-4 py-sm-0 py-3">
+                <img src="media/about3girls.png" class="img-fluid logPic mt-sm-0 mt-5">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer py-5 px-sm-0 px-3">
+        <div class="col-xxl-9 col-xl-11 w90hd mx-auto py-sm-5">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="mb-3"><img src="media/LogoF.png" class="img-fluid"></div>
+                    <div class="mb-3"><img src="media/Mastercard.png" class="img-fluid"></div>
+                    <div class="d-flex flex-row gap-2 mb-3">
+                        <img src="media/arrow.png" class="img-fluid">
+                        <a class="text_pink fsV18 text-decoration-none" href="#">Stonecroft House, 4 Dolecoed Road</a>
+                    </div>
+                    <div class="d-flex flex-row gap-2 mb-3">
+                        <img src="media/phone.png" class="img-fluid">
+                        <a class="text_pink fsV18 text-decoration-none" href="#">+ (000) 00 00 00 000</a>
+                    </div>
+                    <div class="d-flex flex-row gap-2 mb-3">
+                        <img src="media/email.png" class="img-fluid">
+                        <a class="text_pink fsV18 text-decoration-none" href="#">theeworm@mail.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-7 ps-md-5">
+                    <div class="row">
+                        <div class="col-lg-5 mt-sm-0 mt-4">
+                            <div class="fs24 text_yellow mb-3">Navigation</div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">About us</a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Register</a>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Contact us</a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Log in</a>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">All products</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 mt-sm-0 mt-4">
+                            <div class="fs24 text_yellow mb-3">Categories</div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Working from home</a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Fitness & health</a>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Careers</a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Mental wellbeing</a>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Write a book</a>
+                                </div>
+                                <div class="col-6">
+                                    <a class="fs20 text_pink text-decoration-none" href="#">Pet</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-sm-row flex-column justify-content-between mt-4">
+                <div class="d-flex flex-row gap-4">
+                    <a class="fs20 text_pink text-decoration-none mb-sm-0 mb-3" href="#">Privacy Policy</a>
+                    <a class="fs20 text_pink text-decoration-none" href="#">Terms & Conditions</a>
+                </div>
+                <div class="fsV18 text_blue">© 2023 Theeworm.com. All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js' integrity='sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw==' crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js' integrity='sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==' crossorigin='anonymous'></script>
+    <script>
+        var $range = $(".js-range-slider"),
+            $from = $(".from"),
+            $to = $(".to"),
+            range,
+            min = $range.data('min'),
+            max = $range.data('max'),
+            from,
+            to;
+
+        var updateValues = function() {
+            $from.prop("value", from);
+            $to.prop("value", to);
+        };
+
+        $range.ionRangeSlider({
+            onChange: function(data) {
+                from = data.from;
+                to = data.to;
+                updateValues();
+            }
+        });
+
+        range = $range.data("ionRangeSlider");
+        var updateRange = function() {
+            range.update({
+                from: from,
+                to: to
+            });
+        };
+
+        $from.on("input", function() {
+            from = +$(this).prop("value");
+            if (from < min) {
+                from = min;
+            }
+            if (from > to) {
+                from = to;
+            }
+            updateValues();
+            updateRange();
+        });
+
+        $to.on("input", function() {
+            to = +$(this).prop("value");
+            if (to > max) {
+                to = max;
+            }
+            if (to < from) {
+                to = from;
+            }
+            updateValues();
+            updateRange();
+        });
+    </script>
+
+    <script>
+        $('#owl4').owlCarousel({
+            loop: true,
+            margin: 0,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                    dots: false
+                },
+                600: {
+                    items: 1,
+                    nav: true,
+                    dots: false
+                },
+                900: {
+                    items: 1,
+                    nav: true,
+                    dots: true
+                },
+            }
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.fillBtn').click(function() {
+                $('.filM').toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>

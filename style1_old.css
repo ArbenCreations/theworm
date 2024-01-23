@@ -1,0 +1,549 @@
+.error {
+    background-image: url(media/error.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.terms,
+.secure {
+    background-image: url(media/terms.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.log {
+    background-image: url(media/login.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.reset {
+    background-image: url(media/reset.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.create {
+    background-image: url(media/create.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signup {
+    background-image: url(media/signup.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signup2 {
+    background-image: url(media/signup2.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    background-image: url(media/contact.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about1 {
+    background-image: url(media/about1.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about2 {
+    background-image: url(media/about2.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about3 {
+    background-image: url(media/about3.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ord {
+    padding: 24px 32px;
+}
+
+.boxG {
+    padding: 16px 24px;
+    background-color: #2D6961;
+}
+
+.boxW {
+    padding: 16px 24px;
+    background-color: transparent;
+    border: 1px solid #DFDFDF;
+}
+
+.boxN {
+    border: 1px solid #DFDFDF;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.iconStyle {
+    position: absolute;
+    margin-left: -37px;
+    margin-top: 13px;
+    background-color: #FFF4EE;
+    padding: 4px;
+    color: #9B9B9B;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-body {
+    margin-top: -30px
+}
+
+.modal-content {
+    border-radius: 16px;
+}
+
+.cards {
+    background-color: transparent;
+    border-bottom: 1px solid #C5C5C5;
+    padding-bottom: 20px;
+}
+
+.val {
+    padding: 1px 8px;
+    border-radius: 12px;
+    border: 1px solid #C5C5C5;
+}
+
+.logPic {
+    border-radius: 16px;
+    box-shadow: 56px 0px 100px 0px #00000052, -16px 0px 32px 0px #98989814!important;
+}
+
+.cont {
+    padding: 48px;
+    border-radius: 16px;
+    background-color: #FFF4EE;
+    box-shadow: 56px 0px 100px 0px #00000052, -16px 0px 32px 0px #98989814!important;
+}
+
+.owl-carousel .owl-item img {
+    width: auto;
+}
+
+.owl-carousel .owl-nav {
+    display: block !important;
+}
+
+.owl-prev span,
+.owl-next span {
+    /* width: 2px;
+    height: 2px; */
+    font-size: 0px;
+    background-image: url(media/Vector.svg) !important;
+    width: 6.38px;
+    height: 10.15px;
+    background-size: contain;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: -50%;
+    width: 32px !important;
+    height: 32px !important;
+    background-color: #2D6961 !important;
+    border-radius: 100% !important;
+    color: #FFFEFF !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px !important;
+}
+
+.owl-prev {
+    right: 200px !important;
+}
+
+.owl-next {
+    right: 150px !important;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#owl3 .owl-prev,
+#owl3 .owl-next {
+    display: none;
+    background: none;
+}
+
+#owl2 .owl-prev,
+#owl2 .owl-next {
+    position: absolute;
+    top: 45%;
+    /* left: -10px !important; */
+    display: flex !important;
+    justify-content: space-between;
+    /* width: 100%; */
+    width: 32px !important;
+    height: 32px !important;
+    background-color: #2D6961 !important;
+    border-radius: 100% !important;
+    color: #FFFEFF !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10 !important;
+}
+
+#owl2 .owl-prev {
+    left: -0px !important;
+}
+
+#owl2 .owl-next {
+    right: -0px !important;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#owl2 .owl .about2 img {
+    width: auto;
+    height: auto;
+}
+
+.item1 {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #FBDACA;
+}
+
+.welbeing {
+    background-image: url(media/welbeingD.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fitness {
+    background-image: url(media/fitnessD.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.write {
+    background-image: url(media/writeD.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.career {
+    background-image: url(media/careerD.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pet {
+    background-image: url(media/petD.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.store1 {
+    background-image: url(media/storeD.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.range {
+    border: 1px solid #C5C5C5;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.index1 {
+    background-image: url(media/index1D.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index2 {
+    background-image: url(media/index2D.jpg);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index3 {
+    background-image: url(media/index3D.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index4 {
+    background-image: url(media/index4D.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index6 {
+    background-image: url(media/index6D.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.car {
+    padding: 32px;
+    border-radius: 16px;
+}
+
+i {
+    top: 35%;
+    left: 5%;
+    color: #7A92B7
+}
+
+.checkb {
+    display: inline-block;
+    height: 24px;
+    border: 1px solid #C5C5C5;
+    border-radius: 8px;
+    background-color: #FFF4EE !important;
+}
+
+input[type='checkbox']:checked~.checkb {
+    background-image: url(media/tick.svg);
+    background-size: auto;
+    background-position: center;
+}
+
+.cartB {
+    position: absolute;
+    width: 548px;
+    /* left: 200px; */
+    margin-left: 0px;
+    margin-top: 20px;
+    display: none;
+    background-color: #FFF4EE;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.carM {
+    position: absolute;
+    width: 327px;
+    top: 80px;
+    left: 24px;
+    /* margin: auto; */
+    /* left: 200px; */
+    /* margin-left: -280px; */
+    /* margin-top: 20px; */
+    display: none;
+}
+
+.cartB.show,
+.carM.show {
+    display: block;
+}
+
+@media screen and (max-width: 576px) {
+    .error {
+        background-image: url(media/errorM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .terms {
+        background-image: url(media/termsM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .secure {
+        background-image: url(media/secured.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .boxG {
+        padding: 24px;
+        background-color: #2D6961;
+    }
+    .log {
+        background-image: url(media/loginM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .reset {
+        background-image: url(media/resetM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .create {
+        background-image: url(media/createM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .signup {
+        background-image: url(media/signupM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .signup2 {
+        background-image: url(media/signup2M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .contact {
+        background-image: url(media/contactM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cont {
+        padding: 24px;
+        border-radius: 12px;
+        background-color: #FFF4EE;
+        box-shadow: 0px 70px 100px 0px #00000052;
+        box-shadow: 0px -8px 32px 0px #98989814;
+    }
+    .about1 {
+        background-image: url(media/about1M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .about2 {
+        background-image: url(media/about2M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .about3 {
+        background-image: url(media/about3M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .owl-prev,
+    .owl-next {
+        display: none;
+    }
+    .owl-dots {
+        margin: auto;
+    }
+    .owl-dots button.owl-dot {
+        border: 1px solid gray;
+        background: white;
+        border-radius: 50%;
+        height: 19px;
+        width: 19px;
+        position: relative;
+        margin-inline: 10px;
+    }
+    .owl-dots button.owl-dot:hover {
+        border: 1px solid black;
+        background: #2D6961;
+        border-radius: 50%;
+        height: 19px;
+        width: 19px;
+        position: relative;
+        margin-inline: 10px;
+    }
+    #owl2 .owl-dots {
+        display: none;
+    }
+    .welbeing {
+        background-image: url(media/welbeingM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .fitness {
+        background-image: url(media/fitnessM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .write {
+        background-image: url(media/writeM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .career {
+        background-image: url(media/careerM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .pet {
+        background-image: url(media/petM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .store1 {
+        background-image: url(media/storeM.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .index1 {
+        background-image: url(media/index1M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .index2 {
+        background-image: url(media/index2M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .index3 {
+        background-image: url(media/index3M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .index4 {
+        background-image: url(media/index4M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .index6 {
+        background-image: url(media/index6M.png);
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
